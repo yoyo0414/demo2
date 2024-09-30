@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">继续...</item>
+        <item id="btnclose">关闭</item>
+        <item id="btnHelp">求助</item>
+        <item id="btnAgreement">同意</item>
+        <item id="btnNeutral">中立</item>
+        <item id="btnDisagreement">不同意</item>
+        <item id="btnTransfer">提交数据</item>
+        <item id="btnExit">退出</item>
+        <item id="selectItem">请选择...</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">你的作答将会丢失</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">返回</item>
+        <item id="fillInRequiredFields">请填写所有的必选项</item>
+
+        <!-- errors -->
+        <item id="errorHead">错误！</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">欢迎欢迎，热烈欢迎！</item>
+        <item id="welcomeText">这是一个关于iPad在课堂上使用的演示项目。{br}{br}{b}**重要信息**{/b}{br}对于这项调查，您将需要尽可能多的屏幕空间!{br}{br}如有必要，请{b}最大化{/b}您的浏览器窗口大小，{b}{i}重新加载{/i}{/b}此网页，然后点击“继续”按钮开始调查。</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">访问密码</item>
+        <item id="loginText">请输入此项调查的访问密码</item>
+        <item id="loginFormHeader">访问密码</item>
+        <item id="loginPartIdText">你的id</item>
+        <item id="loginNoInput">请输入您的访问码</item>
+        <item id="loginInvalidInput">无效访问码！</item>
+        <item id="loginNoConnection">链接服务器失败，请再试一次</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">介绍</item>
+        <item id="introText">这是一项研究大学生使用的方言心理因素的调查</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">五步中的第一步</item>
+        <item id="step1Text">仔细阅读下面的陈述，并把它们分成三堆:一堆是你不同意的陈述，一堆是你同意的卡片，和剩下的一堆。{br}{br}你可以把牌拖到三堆中的一堆或者{b}按键盘上的1,2,3 {/b}。稍后可以进行更改。{br}{br}如果您想再次阅读此指令，请按左下角的帮助按钮。</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">五步中的第二步</item>
+        <item id="step2Text">从“同意”牌堆中取出卡片，并将它们排列在计分表的右侧。{br}{br}接下来，从“不同意”堆中取出卡片，并将它们排列在计分纸的左侧。对“同意”和“不同意”牌堆中的所有牌都遵循此程序。{br}{br}最后，把“中立”牌排列在计分表上剩下的打开的盒子里。</item>
+        <item id="step2CondOfInstruc">Give condition of instruction here</item>
+        <item id="step2TextSizeLabel">Text</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">五步中的第三步</item>
+        <item id="step3Text">现在你已经把所有的卡片放在计分表上了。请再看一遍你的分配，如果需要的话，交换卡的位置。</item>
+        <item id="step3CondOfInstruc">Give condition of instruction here</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">五步中的第四步</item>
+        <item id="step4Text">请解释为什么你最同意或最不同意你在“+3”或“-3”下面的陈述。</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">最后一步</item>
+        <item id="step5Text">最后，请回答以下关于你的背景的问题。</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">上传作答</item>
+        <item id="transferText">你已经完成了调查，请现在上传数据</item>
+        <item id="transferFailed">上传数据失败，请再试一次</item>
+        <item id="transferOk">感谢您使用Easy HTMLQ!{br}{br}您现在可以关闭浏览器窗口了。</item>   
+   </language>
